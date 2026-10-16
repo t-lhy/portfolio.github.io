@@ -996,7 +996,7 @@ function drawContactSheet() {
 // ── Feuille À propos ─────────────────────────────────────────────────────────
 const APROPOS_BIO = {
   fr: "Je m'appelle Theo, et je crée sous le nom d'Eclectique Lab. " +
-      "Basé à Besançon, j'explore le graphisme et la vidéo comme des façons de raconter " +
+      "Basé à Nevers, j'explore le graphisme et la vidéo comme des façons de raconter " +
       "et d'expérimenter. Ma passion a commencé enfant, en construisant des mondes avec des " +
       "LEGO ou sur Minecraft. Puis tout s'est accéléré quand mon père m'a initié à Photoshop, " +
       "qui m'a permis de découvrir une nouvelle façon de créer.\n\n" +
@@ -1004,7 +1004,7 @@ const APROPOS_BIO = {
       "Mes inspirations sont variées, allant de la musique à la nature, et incluent des créateurs " +
       "comme Virgil Abloh, l'une de mes plus grandes inspirations.",
   en: "My name is Theo, and I create under the name Eclectique Lab. " +
-      "Based in Besançon, I explore graphic design and video as ways of telling stories " +
+      "Based in Nevers, I explore graphic design and video as ways of telling stories " +
       "and experimenting. My passion started as a child, building worlds with " +
       "LEGO or in Minecraft. Then everything sped up when my father introduced me to Photoshop, " +
       "which showed me a whole new way of creating.\n\n" +
@@ -1072,7 +1072,7 @@ function drawAproposSheet() {
     // Sous-titre
     fill(sc);
     textStyle(NORMAL); textSize(13);
-    text("Besançon - Belfort", tx, ty + (compact ? 32 : 38));
+    text("Nevers - Bourgogne-Franche-Comté", tx, ty + (compact ? 32 : 38));
 
     // Ligne
     let ly = ty + (compact ? 52 : 58);
